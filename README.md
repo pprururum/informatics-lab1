@@ -31,6 +31,7 @@ bash script.bash
 ```
 
 5. Если вы все сделали верно, то в терминале должна отобразиться строка `Welcome to ITMO University`.
+   
 ![image](https://github.com/user-attachments/assets/f69804d8-437c-411a-970a-5861d62ebd14)
 
 
@@ -51,7 +52,8 @@ bash script.bash Vasya Pupkin
 *Hint:* Скрипт должен работать для любых имен, даже если это Benedict Timothy Carlton Cumberbatch.
 
 
-Решение
+Решение.
+
 Для вывода любого запрашиваемого имени используем переменную `$@`, вписываем её в скрипт.
 ![image](https://github.com/user-attachments/assets/a6ab5d0e-f2c5-41c9-a384-6bf4a9e40fc3)
 Проверяем нашу программу на различных вводных значениях
